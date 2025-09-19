@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Rogahn - Nader",
+    "version": "5.8",
+    "last_opened": "2025-09-19T01:45:08.866Z",
+    "type": "social",
+    "usage_stats": {
+      "hours": 2
+    }
+  },
+  {
+    "name": "Beahan, Bogisich and Hettinger",
+    "version": "10.7",
+    "last_opened": "2025-09-18T18:46:36.085Z",
+    "type": "social",
+    "usage_stats": {
+      "hours": 5
+    }
+  },
+  {
+    "name": "Blanda - Feeney",
+    "version": "5.9",
+    "last_opened": "2025-09-19T05:22:44.198Z",
+    "type": "other",
+    "usage_stats": {
+      "hours": 2
+    }
+  },
+  {
+    "name": "Raynor LLC",
+    "version": "5.2",
+    "last_opened": "2025-09-19T08:20:55.508Z",
+    "type": "system",
+    "usage_stats": {
+      "hours": 6
+    }
+  },
+  {
+    "name": "Dicki Inc",
+    "version": "10.8",
+    "last_opened": "2025-09-19T15:31:35.270Z",
+    "type": "social",
+    "usage_stats": {
+      "hours": 1
+    }
+  }
+]

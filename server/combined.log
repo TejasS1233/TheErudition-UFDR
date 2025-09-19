@@ -1,0 +1,204 @@
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T16:02:43.426Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"ufdr_sample.zip","mimetype":"application/x-zip-compressed","originalname":"ufdr_sample.zip","path":"public\\temp\\ufdr_sample.zip","size":3096},"level":"info","message":"File received:","timestamp":"2025-09-19T16:02:43.428Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T16:02:43.429Z","zipFilePath":"public\\temp\\ufdr_sample.zip"}
+{"level":"info","message":"Output directory:","outputDir":"public\\temp\\ufdr_unzipped\\1758297763429","timestamp":"2025-09-19T16:02:43.429Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T16:02:43.430Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T16:02:43.431Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T16:02:43.484Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T16:02:43.484Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T16:06:31.635Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"ufdr_sample.zip","mimetype":"application/x-zip-compressed","originalname":"ufdr_sample.zip","path":"public\\temp\\ufdr_sample.zip","size":3096},"level":"info","message":"File received:","timestamp":"2025-09-19T16:06:31.639Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T16:06:31.639Z","zipFilePath":"public\\temp\\ufdr_sample.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758297991639","timestamp":"2025-09-19T16:06:31.640Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T16:06:31.641Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T16:06:31.642Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T16:06:31.662Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T16:06:31.662Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758297991662","timestamp":"2025-09-19T16:06:32.142Z"}
+{"error":{"_message":"Report validation failed","errors":{"calls.0.call_type":{"kind":"enum","message":"`2` is not a valid enum value for path `call_type`.","name":"ValidatorError","path":"call_type","properties":{"enumValues":["incoming","outgoing","missed","voip_video","conference"],"length":1,"message":"`2` is not a valid enum value for path `call_type`.","path":"call_type","type":"enum","value":"2"},"value":"2"},"calls.0.timestamp":{"kind":"date","message":"Cast to date failed for value \"Invalid Date\" (type Date) at path \"timestamp\"","name":"CastError","path":"timestamp","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"Invalid Date\"","value":null,"valueType":"Date"},"messages.0.timestamp":{"kind":"date","message":"Cast to date failed for value \"Invalid Date\" (type Date) at path \"timestamp\"","name":"CastError","path":"timestamp","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"Invalid Date\"","value":null,"valueType":"Date"}},"message":"Report validation failed: messages.0.timestamp: Cast to date failed for value \"Invalid Date\" (type Date) at path \"timestamp\", calls.0.timestamp: Cast to date failed for value \"Invalid Date\" (type Date) at path \"timestamp\", calls.0.call_type: `2` is not a valid enum value for path `call_type`.","name":"ValidationError"},"level":"error","message":"Error processing report:","timestamp":"2025-09-19T16:06:32.165Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T16:06:32.167Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T16:06:32.169Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T16:06:32.174Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T16:06:32.175Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T16:08:30.515Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"ufdr_sample.zip","mimetype":"application/x-zip-compressed","originalname":"ufdr_sample.zip","path":"public\\temp\\ufdr_sample.zip","size":3096},"level":"info","message":"File received:","timestamp":"2025-09-19T16:08:30.523Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T16:08:30.526Z","zipFilePath":"public\\temp\\ufdr_sample.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758298110526","timestamp":"2025-09-19T16:08:30.528Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T16:08:30.529Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T16:08:30.530Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T16:08:30.559Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T16:08:30.560Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758298110560","timestamp":"2025-09-19T16:08:31.094Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd7fff6c02d440b815150f","timestamp":"2025-09-19T16:08:31.130Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T16:08:31.131Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T16:08:31.134Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T16:08:31.139Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T16:08:31.139Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T16:44:37.485Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":10249},"level":"info","message":"File received:","timestamp":"2025-09-19T16:44:37.488Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T16:44:37.489Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758300277489","timestamp":"2025-09-19T16:44:37.489Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T16:44:37.490Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T16:44:37.490Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T16:44:37.539Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T16:44:37.540Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758300277540","timestamp":"2025-09-19T16:44:38.225Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd88765cd7404ccc76c2b8","timestamp":"2025-09-19T16:44:38.255Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T16:44:38.259Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T16:44:38.260Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T16:44:38.271Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T16:44:38.271Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:03:41.301Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":10249},"level":"info","message":"File received:","timestamp":"2025-09-19T17:03:41.304Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:03:41.305Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758301421304","timestamp":"2025-09-19T17:03:41.305Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:03:41.307Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:03:41.308Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:03:41.457Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:03:41.458Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758301421459","timestamp":"2025-09-19T17:03:43.285Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd8cef8f1ebd48249db894","timestamp":"2025-09-19T17:03:43.379Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:03:43.387Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:03:43.394Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:03:43.422Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:03:43.423Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:05:45.037Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":10249},"level":"info","message":"File received:","timestamp":"2025-09-19T17:05:45.090Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:05:45.118Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758301545109","timestamp":"2025-09-19T17:05:45.135Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:05:45.161Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:05:45.177Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:05:45.608Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:05:45.609Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758301545611","timestamp":"2025-09-19T17:05:47.065Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd8d6bf255e69bd11e9116","timestamp":"2025-09-19T17:05:47.147Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:05:47.156Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:05:47.161Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:05:47.216Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:05:47.217Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:19:41.271Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":10249},"level":"info","message":"File received:","timestamp":"2025-09-19T17:19:41.277Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:19:41.278Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758302381277","timestamp":"2025-09-19T17:19:41.278Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:19:41.280Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:19:41.280Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:19:41.322Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:19:41.322Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758302381323","timestamp":"2025-09-19T17:19:41.343Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd90ad62313edf08e70cf9","timestamp":"2025-09-19T17:19:41.372Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:19:41.375Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:19:41.377Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:19:41.382Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:19:41.383Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:29:40.320Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":10249},"level":"info","message":"File received:","timestamp":"2025-09-19T17:29:40.326Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:29:40.327Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758302980327","timestamp":"2025-09-19T17:29:40.328Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:29:40.331Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:29:40.331Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:29:40.437Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:29:40.438Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758302980439","timestamp":"2025-09-19T17:29:40.514Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd930464502108563fa5fb","timestamp":"2025-09-19T17:29:40.571Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:29:40.573Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:29:40.576Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:29:40.595Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:29:40.596Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:29:57.094Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":10249},"level":"info","message":"File received:","timestamp":"2025-09-19T17:29:57.096Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:29:57.098Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758302997098","timestamp":"2025-09-19T17:29:57.101Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:29:57.108Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:29:57.109Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:29:57.220Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:29:57.221Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758302997222","timestamp":"2025-09-19T17:29:57.278Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd931564502108563fa602","timestamp":"2025-09-19T17:29:57.305Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:29:57.308Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:29:57.313Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:29:57.334Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:29:57.336Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:32:18.035Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":10249},"level":"info","message":"File received:","timestamp":"2025-09-19T17:32:18.048Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:32:18.056Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758303138056","timestamp":"2025-09-19T17:32:18.066Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:32:18.077Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:32:18.089Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:32:18.248Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:32:18.249Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758303138254","timestamp":"2025-09-19T17:32:18.452Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd93a2c64e9c70c4d0c624","timestamp":"2025-09-19T17:32:18.593Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:32:18.602Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:32:18.612Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:32:18.664Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:32:18.665Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:38:51.378Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T17:38:51.394Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:38:51.397Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758303531396","timestamp":"2025-09-19T17:38:51.402Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:38:51.405Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:38:51.407Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:38:51.593Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:38:51.594Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758303531596","timestamp":"2025-09-19T17:38:52.098Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd952c67dc56f9afbb91f1","timestamp":"2025-09-19T17:38:52.213Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:38:52.223Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:38:52.236Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:38:52.287Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:38:52.288Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:39:51.259Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T17:39:51.260Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:39:51.264Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758303591264","timestamp":"2025-09-19T17:39:51.266Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:39:51.269Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:39:51.275Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:39:51.417Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:39:51.419Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758303591420","timestamp":"2025-09-19T17:39:51.545Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd956767dc56f9afbb91f6","timestamp":"2025-09-19T17:39:51.599Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:39:51.632Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:39:51.659Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:39:51.705Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:39:51.716Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:44:34.819Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T17:44:34.821Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:44:34.822Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758303874822","timestamp":"2025-09-19T17:44:34.823Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:44:34.823Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:44:34.824Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:44:34.889Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:44:34.889Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758303874890","timestamp":"2025-09-19T17:44:34.923Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd96821a1cf0f9158ee34d","timestamp":"2025-09-19T17:44:34.946Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:44:34.948Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:44:34.951Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:44:34.955Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:44:34.955Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:45:02.295Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T17:45:02.296Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:45:02.300Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758303902300","timestamp":"2025-09-19T17:45:02.301Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:45:02.306Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:45:02.307Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:45:02.435Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:45:02.435Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758303902436","timestamp":"2025-09-19T17:45:02.498Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd969e1a1cf0f9158ee354","timestamp":"2025-09-19T17:45:02.529Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:45:02.533Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:45:02.539Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:45:02.566Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:45:02.568Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:46:55.667Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T17:46:55.668Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:46:55.669Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758304015669","timestamp":"2025-09-19T17:46:55.669Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:46:55.670Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:46:55.670Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:46:55.727Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:46:55.728Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758304015728","timestamp":"2025-09-19T17:46:55.766Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd970f013dbca5eacc188b","timestamp":"2025-09-19T17:46:55.798Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:46:55.800Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:46:55.802Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:46:55.806Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:46:55.807Z"}

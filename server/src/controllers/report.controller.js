@@ -1,66 +1,85 @@
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { ApiResponse } from "../utils/apiResponse.js";
 import processUFDRFolder from "../parsers/orchestrator.parser.js";
+import Report from "../models/report.model.js";
 import path from "path";
 import fs from "fs";
 import unzipper from "unzipper";
+import logger from "../utils/logger.js";
+import os from "os";
 
 const uploadAndProcessReport = asyncHandler(async (req, res) => {
-  console.log("Entering uploadAndProcessReport controller.");
+  logger.info("Entering uploadAndProcessReport controller.");
 
   if (!req.file) {
-    console.error("No file uploaded.");
+    logger.error("No file uploaded.");
     return res.status(400).json({ message: "No file uploaded" });
   }
-  console.log("File received:", req.file);
+
+  logger.info("File received:", { file: req.file });
 
   const zipFilePath = req.file.path;
-  const outputDir = path.join("public", "temp", "ufdr_unzipped", Date.now().toString());
+  // Use system temp directory to avoid Nodemon restarts
+  const outputDir = path.join(os.tmpdir(), "ufdr_unzipped", Date.now().toString());
 
-  console.log("Zip file path:", zipFilePath);
-  console.log("Output directory:", outputDir);
+  logger.info("Zip file path:", { zipFilePath });
+  logger.info("Output directory:", { outputDir });
 
   try {
-    console.log("Creating output directory if it doesn't exist.");
+    // Create output directory if it doesn't exist
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
+      logger.info("Created output directory.");
     }
-    console.log("Output directory exists.");
 
-    console.log("Starting file unzip process.");
+    // Unzip the file
+    logger.info("Starting file unzip process.");
     await fs
       .createReadStream(zipFilePath)
       .pipe(unzipper.Extract({ path: outputDir }))
       .promise();
-    console.log("File unzipped successfully.");
+    logger.info("File unzipped successfully.");
 
-    console.log("Starting report processing.");
+    // Process the report folder
+    logger.info("Starting report processing.");
     const reportData = await processUFDRFolder(outputDir);
-    console.log("Report processed successfully.");
 
-    res.status(200).json({
-      status: 200,
-      data: reportData,
-      message: "Report processed successfully",
-    });
+    if (!reportData) {
+      logger.error("Report processing returned empty data.");
+      return res.status(500).json({ message: "Report processing failed." });
+    }
+
+    logger.info("Report processed successfully:", { report_id: reportData.report_id });
+
+    // Save report to MongoDB
+    const savedReport = await Report.create(reportData);
+    logger.info("Report saved to MongoDB with ID:", { reportId: savedReport._id });
+
+    // Send response
+    res
+      .status(201)
+      .json(
+        new ApiResponse(201, "Report uploaded and saved successfully.", { reportData: savedReport })
+      );
   } catch (err) {
-    console.error("Error processing report:", err);
+    logger.error("Error processing report:", { error: err });
     res.status(500).json({ message: "Failed to process report" });
   } finally {
-    console.log("Starting cleanup process.");
+    // Cleanup: delete zip and unzipped folder
+    logger.info("Starting cleanup process.");
     try {
       if (fs.existsSync(zipFilePath)) {
         fs.unlinkSync(zipFilePath);
-        console.log("Cleaned up zip file.");
+        logger.info("Cleaned up zip file.");
       }
       if (fs.existsSync(outputDir)) {
         fs.rmSync(outputDir, { recursive: true, force: true });
-        console.log("Cleaned up unzipped folder.");
+        logger.info("Cleaned up unzipped folder.");
       }
     } catch (cleanupErr) {
-      console.error("Error during cleanup:", cleanupErr);
+      logger.error("Error during cleanup:", { error: cleanupErr });
     }
-    console.log("Cleanup process finished.");
+    logger.info("Cleanup process finished.");
   }
 });
 

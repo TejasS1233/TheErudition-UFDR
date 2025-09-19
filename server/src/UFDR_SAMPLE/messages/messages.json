@@ -1,0 +1,122 @@
+[
+  {
+    "id": "M1",
+    "platform": "WhatsApp",
+    "sender": "Roxanne",
+    "receiver": "Lavon",
+    "content": "Utroque voluptas bestia vivo tamisium debitis debilito spiritus angulus.",
+    "timestamp": "2025-09-19T15:11:21.318Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": true
+  },
+  {
+    "id": "M2",
+    "platform": "Telegram",
+    "sender": "Samir",
+    "receiver": "Deborah",
+    "content": "Speculum coadunatio tollo bestia quae unus vos.",
+    "timestamp": "2025-09-18T20:37:30.989Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": true
+  },
+  {
+    "id": "M3",
+    "platform": "Telegram",
+    "sender": "Shanel",
+    "receiver": "Ashleigh",
+    "content": "Aspernatur illo conatus villa officiis vociferor eum arca.",
+    "timestamp": "2025-09-19T07:03:32.395Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": false
+  },
+  {
+    "id": "M4",
+    "platform": "SMS",
+    "sender": "Edythe",
+    "receiver": "Jamaal",
+    "content": "A attero validus cognatus.",
+    "timestamp": "2025-09-18T23:27:23.749Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": true
+  },
+  {
+    "id": "M5",
+    "platform": "WhatsApp",
+    "sender": "Name",
+    "receiver": "Paolo",
+    "content": "Caelestis amo vere capto administratio.",
+    "timestamp": "2025-09-18T17:41:20.794Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": false
+  },
+  {
+    "id": "M6",
+    "platform": "SMS",
+    "sender": "Eve",
+    "receiver": "Josianne",
+    "content": "Cuppedia subvenio vulnus celebrer adipiscor laborum baiulus.",
+    "timestamp": "2025-09-19T12:57:41.933Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": true
+  },
+  {
+    "id": "M7",
+    "platform": "Telegram",
+    "sender": "Mina",
+    "receiver": "Rubye",
+    "content": "Aggredior carus crebro abutor.",
+    "timestamp": "2025-09-18T20:23:18.255Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": true
+  },
+  {
+    "id": "M8",
+    "platform": "WhatsApp",
+    "sender": "Nyah",
+    "receiver": "Letha",
+    "content": "Avaritia recusandae aedificium.",
+    "timestamp": "2025-09-19T02:53:09.880Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": true
+  },
+  {
+    "id": "M9",
+    "platform": "Telegram",
+    "sender": "Godfrey",
+    "receiver": "Sienna",
+    "content": "Adicio cupio administratio vaco.",
+    "timestamp": "2025-09-19T13:03:30.578Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": true
+  },
+  {
+    "id": "M10",
+    "platform": "SMS",
+    "sender": "Yvette",
+    "receiver": "Shad",
+    "content": "Officia voluptate defleo creptio ultra.",
+    "timestamp": "2025-09-18T17:40:35.874Z",
+    "attachments": [
+      "dummy_file.jpg"
+    ],
+    "deleted": false
+  }
+]

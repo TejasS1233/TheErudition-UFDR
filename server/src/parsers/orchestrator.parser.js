@@ -8,49 +8,74 @@ import { parseCrypto } from "./crypto.parser.js";
 import { parseLocations } from "./location.parser.js";
 import { parseApps } from "./app.parser.js";
 import { parseDeletedData } from "./deleted_data.parser.js";
-import { saveReport } from "../utils/mongoSaver.js";
+
+const CALL_TYPE_MAP = {
+  0: "incoming",
+  1: "outgoing",
+  2: "missed",
+  3: "voip_video",
+  4: "conference",
+};
 
 const processUFDRFolder = async (folderPath) => {
   const reportData = { report_id: Date.now().toString() };
 
-  // Messages
+  // ------------------- Messages -------------------
   const msgFiles = loadFilesRecursive(folderPath, "messages", ".json");
-  reportData.messages = msgFiles.flatMap((f) => parseMessages(f));
+  const messagesArrays = await Promise.all(msgFiles.map((f) => parseMessages(f)));
+  reportData.messages = messagesArrays.flat();
+  reportData.messages = reportData.messages.map((m) => {
+    const ts = new Date(m.timestamp);
+    m.timestamp = isNaN(ts) ? null : ts;
+    return m;
+  });
 
-  // Calls
+  // ------------------- Calls -------------------
   const callFiles = loadFilesRecursive(folderPath, "calls", ".json");
-  reportData.calls = callFiles.flatMap((f) => parseCalls(f));
+  const callsArrays = await Promise.all(callFiles.map((f) => parseCalls(f)));
+  reportData.calls = callsArrays.flat();
+  reportData.calls = reportData.calls.map((c) => {
+    c.call_type = CALL_TYPE_MAP[c.call_type] || "incoming";
+    const ts = new Date(c.timestamp);
+    c.timestamp = isNaN(ts) ? null : ts;
+    return c;
+  });
 
-  // Media
+  // ------------------- Media -------------------
   const mediaFiles = loadFilesRecursive(folderPath, "media");
-  const mediaPromises = mediaFiles.map((f) => parseMedia(f));
-  reportData.media = (await Promise.all(mediaPromises)).filter(Boolean);
+  const mediaArrays = await Promise.all(mediaFiles.map((f) => parseMedia(f)));
+  reportData.media = mediaArrays.flat().filter(Boolean);
 
-  // Browser History
+  // ------------------- Browser History -------------------
   const browserFiles = loadFilesRecursive(folderPath, "browser", ".json");
-  reportData.browserHistory = browserFiles.flatMap((f) => parseBrowserHistory(f));
+  const browserArrays = await Promise.all(browserFiles.map((f) => parseBrowserHistory(f)));
+  reportData.browserHistory = browserArrays.flat();
 
-  // Documents
+  // ------------------- Documents -------------------
   const docFiles = loadFilesRecursive(folderPath, "documents");
-  reportData.documents = docFiles.flatMap((f) => parseDocuments(f));
+  const docArrays = await Promise.all(docFiles.map((f) => parseDocuments(f)));
+  reportData.documents = docArrays.flat();
 
-  // Crypto
+  // ------------------- Crypto -------------------
   const cryptoFiles = loadFilesRecursive(folderPath, "crypto", ".json");
-  reportData.crypto = cryptoFiles.flatMap((f) => parseCrypto(f));
+  const cryptoArrays = await Promise.all(cryptoFiles.map((f) => parseCrypto(f)));
+  reportData.crypto = cryptoArrays.flat();
 
-  // Locations
+  // ------------------- Locations -------------------
   const locationFiles = loadFilesRecursive(folderPath, "locations", ".json");
-  reportData.locations = locationFiles.flatMap((f) => parseLocations(f));
+  const locationArrays = await Promise.all(locationFiles.map((f) => parseLocations(f)));
+  reportData.locations = locationArrays.flat();
 
-  // Apps
+  // ------------------- Apps -------------------
   const appFiles = loadFilesRecursive(folderPath, "apps", ".json");
-  reportData.apps = appFiles.flatMap((f) => parseApps(f));
+  const appArrays = await Promise.all(appFiles.map((f) => parseApps(f)));
+  reportData.apps = appArrays.flat();
 
-  // Deleted Data
+  // ------------------- Deleted Data -------------------
   const deletedDataFiles = loadFilesRecursive(folderPath, "deleted_data", ".json");
-  reportData.deletedData = deletedDataFiles.flatMap((f) => parseDeletedData(f));
+  const deletedArrays = await Promise.all(deletedDataFiles.map((f) => parseDeletedData(f)));
+  reportData.deletedData = deletedArrays.flat();
 
-  await saveReport(reportData);
   return reportData;
 };
 

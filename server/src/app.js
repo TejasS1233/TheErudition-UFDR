@@ -6,9 +6,13 @@ import { Server as SocketIOServer } from "socket.io";
 import { ExpressPeerServer } from "peer";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
+import morgan from "morgan";
 
 const app = express();
 const httpServer = createServer(app);
+
+// Use morgan for logging
+app.use(morgan("dev"));
 
 const io = new SocketIOServer(httpServer, {
   cors: {

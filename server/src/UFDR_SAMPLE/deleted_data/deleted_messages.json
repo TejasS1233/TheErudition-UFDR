@@ -1,0 +1,12 @@
+[
+  {
+    "original_id": "384a93f2-2c15-416c-9c68-daab8158e690",
+    "data_type": "message",
+    "recovery_status": "recovered"
+  },
+  {
+    "original_id": "99785397-0321-4c92-9a7d-875d785a4590",
+    "data_type": "message",
+    "recovery_status": "partially_recovered"
+  }
+]

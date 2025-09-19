@@ -1,3 +1,4 @@
 {
-  "ignore": ["public/temp/*"]
+  "watch": ["src"],
+  "ignore": ["public/temp"]
 }
