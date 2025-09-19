@@ -30,7 +30,6 @@ export const parseMessages = async (filePath) => {
       const raw = fs.readFileSync(filePath, "utf-8");
       const parsed = await xml2js.parseStringPromise(raw);
 
-      // Example for SMS backups: <sms protocol="" address="" date="" body=""/>
       if (parsed.smses?.sms) {
         parsed.smses.sms.forEach((sms, i) => {
           messages.push({
@@ -47,7 +46,7 @@ export const parseMessages = async (filePath) => {
       }
     } else if (ext === ".db" || ext === ".sqlite") {
       const db = await open({ filename: filePath, driver: sqlite3.Database });
-      const rows = await db.all("SELECT * FROM messages"); // adjust table/column names per platform
+      const rows = await db.all("SELECT * FROM messages");
       rows.forEach((msg) => {
         messages.push({
           message_id: msg.id || null,
@@ -64,12 +63,10 @@ export const parseMessages = async (filePath) => {
     } else if (ext === ".csv" || ext === ".txt") {
       const raw = fs.readFileSync(filePath, "utf-8");
 
-      // Attempt CSV first
       let rows = [];
       try {
         rows = parse(raw, { columns: true });
       } catch {
-        // fallback: split lines for TXT files
         rows = raw.split("\n").map((line) => ({ content: line }));
       }
 
@@ -86,7 +83,6 @@ export const parseMessages = async (filePath) => {
         });
       });
     } else {
-      // Unknown format: fallback to raw text lines
       const raw = fs.readFileSync(filePath, "utf-8");
       raw.split("\n").forEach((line, i) => {
         if (line.trim()) {

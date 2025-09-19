@@ -1,0 +1,35 @@
+[
+  {
+    "data_type": "message",
+    "original_id": "MSG_DEL_001",
+    "recovery_status": "recovered",
+    "timestamp": "2025-09-20T17:05:00.000Z",
+    "platform": "Signal",
+    "sender": "John Smith",
+    "receiver": "Mike Johnson",
+    "content": "The 5 BTC in wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa needs to be moved through tornado.cash immediately. Police are watching.",
+    "deleted_at": "2025-09-20T17:05:30.000Z"
+  },
+  {
+    "data_type": "message",
+    "original_id": "MSG_DEL_002",
+    "recovery_status": "recovered",
+    "timestamp": "2025-09-20T17:25:00.000Z",
+    "platform": "WhatsApp",
+    "sender": "Sarah Wilson",
+    "receiver": "John Smith",
+    "content": "I'm at coordinates 40.6782,-73.9442. The crypto from bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh is clean now.",
+    "deleted_at": "2025-09-20T17:25:15.000Z"
+  },
+  {
+    "data_type": "message",
+    "original_id": "MSG_DEL_003",
+    "recovery_status": "partially_recovered",
+    "timestamp": "2025-09-20T18:20:00.000Z",
+    "platform": "Telegram",
+    "sender": "Mike Johnson",
+    "receiver": "Sarah Wilson",
+    "content": "Split complete. 1.5 BTC to 35hK24tcLEWcgNA4JxpvbkNkoAcDGqQPsP and 1.5 BTC to 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2. We're done.",
+    "deleted_at": "2025-09-20T18:20:45.000Z"
+  }
+]

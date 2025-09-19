@@ -50,14 +50,18 @@ export const parseApps = async (filePath) => {
       }));
     }
 
-    // ✅ Normalize schema
     return records.map((app, i) => ({
       app_id: app.id || app.app_id || `app_${i}`,
       name: app.name || app.appName || "Unknown",
       version: app.version || "Unknown",
       package: app.package || app.package_name || null,
-      installed_at: app.installed_at ? new Date(app.installed_at) : null,
-      last_used: app.last_used ? new Date(app.last_used) : null,
+      last_opened: app.last_opened
+        ? new Date(app.last_opened)
+        : app.last_used
+          ? new Date(app.last_used)
+          : null,
+      type: app.type || "other",
+      usage_stats: app.usage_stats || {},
       file_path: filePath,
       raw: app.raw || JSON.stringify(app),
     }));

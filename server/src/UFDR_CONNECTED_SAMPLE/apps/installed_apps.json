@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Signal Private Messenger",
+    "version": "6.32.0",
+    "last_opened": "2025-09-20T18:00:00.000Z",
+    "type": "messaging",
+    "usage_stats": {
+      "hours": 25,
+      "messages_sent": 150
+    }
+  },
+  {
+    "name": "Telegram",
+    "version": "10.1.2",
+    "last_opened": "2025-09-20T17:15:00.000Z",
+    "type": "messaging",
+    "usage_stats": {
+      "hours": 45,
+      "messages_sent": 300
+    }
+  },
+  {
+    "name": "WhatsApp",
+    "version": "2.23.20",
+    "last_opened": "2025-09-20T18:00:00.000Z",
+    "type": "messaging",
+    "usage_stats": {
+      "hours": 60,
+      "messages_sent": 500
+    }
+  },
+  {
+    "name": "Coinbase Wallet",
+    "version": "4.5.1",
+    "last_opened": "2025-09-20T18:15:00.000Z",
+    "type": "finance",
+    "usage_stats": {
+      "hours": 20,
+      "transactions": 45
+    }
+  },
+  {
+    "name": "Google Maps",
+    "version": "11.45.2",
+    "last_opened": "2025-09-20T15:50:00.000Z",
+    "type": "other",
+    "usage_stats": {
+      "hours": 10,
+      "searches": 25
+    }
+  },
+  {
+    "name": "Chrome Browser",
+    "version": "118.0.5993",
+    "last_opened": "2025-09-20T17:55:00.000Z",
+    "type": "other",
+    "usage_stats": {
+      "hours": 100,
+      "sites_visited": 1000
+    }
+  }
+]

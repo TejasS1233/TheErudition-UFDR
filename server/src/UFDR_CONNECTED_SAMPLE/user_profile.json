@@ -1,0 +1,9 @@
+{
+  "name": "John Smith",
+  "aliases": ["BigBoss", "JS_Crypto", "TheKingpin"],
+  "phones": ["+1-555-1001", "+1-555-1002"],
+  "emails": ["john.smith@email.com", "bigboss@protonmail.com"],
+  "addresses": ["123 Criminal Street, Vice City", "456 Money Lane, Cash Town"],
+  "cloud_accounts": ["johnsmith_drive", "bigboss_cloud"],
+  "social_handles": ["@BigBossOfficial", "@JS_Crypto_King"]
+}

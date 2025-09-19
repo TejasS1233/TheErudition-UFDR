@@ -7,7 +7,6 @@ export const parseBrowserHistory = async (filePath) => {
   const ext = path.extname(filePath).toLowerCase();
 
   try {
-    // ✅ Handle JSON history (Firefox export)
     if (ext === ".json") {
       const fileContent = fs.readFileSync(filePath, "utf-8");
       const history = JSON.parse(fileContent);
@@ -20,10 +19,7 @@ export const parseBrowserHistory = async (filePath) => {
         file_path: filePath,
         raw: JSON.stringify(item),
       }));
-    }
-
-    // ✅ Handle SQLite history (Chrome export)
-    else if (ext === ".db" || ext === ".sqlite") {
+    } else if (ext === ".db" || ext === ".sqlite") {
       const db = await open({ filename: filePath, driver: sqlite3.Database });
       const rows = await db.all("SELECT id, url, title, ts FROM history");
       await db.close();
@@ -37,10 +33,7 @@ export const parseBrowserHistory = async (filePath) => {
         file_path: filePath,
         raw: JSON.stringify(row),
       }));
-    }
-
-    // ❓ Unsupported
-    else {
+    } else {
       console.warn(`Unsupported browser history format: ${filePath}`);
       return [];
     }

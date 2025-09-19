@@ -1,28 +1,25 @@
 import mongoose from "mongoose";
 import neo4j from "neo4j-driver";
-import Report from "./models/report.model.js"; // your Mongoose model
+import Report from "./models/report.model.js";
 
-// ---------------- CONFIG ----------------
 const NEO4J_URI = "neo4j+s://e87bbc36.databases.neo4j.io";
 const NEO4J_USER = "e87bbc36";
 const NEO4J_PASSWORD = "NZeOfvfyfO4ZR16wy4k-jBNyfVBzBksAeuYphXDei7Q";
 
 const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://Tejas:Tejas@cluster0.wnuycfg.mongodb.net";
 
-// ---------------- CONNECTIONS ----------------
 await mongoose.connect(MONGO_URI, { dbName: "SIH-UFDR" });
 console.log("Connected to MongoDB");
 
 const driver = neo4j.driver(NEO4J_URI, neo4j.auth.basic(NEO4J_USER, NEO4J_PASSWORD));
 const session = driver.session();
 
-// ---------------- HELPERS ----------------
 const safeDate = (val) => (val ? new Date(val).toISOString() : null);
 const safeString = (val, fallback = "unknown") =>
   val !== undefined && val !== null ? val : fallback;
 const safeNumber = (val, fallback = 0) => (typeof val === "number" ? val : fallback);
+const safeObject = (val) => (val && typeof val === "object" ? JSON.stringify(val) : "{}");
 
-// ---------------- TRANSFER FUNCTION ----------------
 async function transferReports() {
   try {
     const reports = await Report.find({}).lean();
@@ -30,7 +27,6 @@ async function transferReports() {
     for (const report of reports) {
       const tx = session.beginTransaction();
 
-      // ---------------- REPORT NODE ----------------
       await tx.run(
         `
         MERGE (r:Report {report_id: $report_id})
@@ -42,7 +38,6 @@ async function transferReports() {
         }
       );
 
-      // ---------------- MESSAGES ----------------
       for (const msg of report.messages || []) {
         await tx.run(
           `
@@ -65,7 +60,6 @@ async function transferReports() {
         );
       }
 
-      // ---------------- CALLS ----------------
       for (const call of report.calls || []) {
         await tx.run(
           `
@@ -88,7 +82,6 @@ async function transferReports() {
         );
       }
 
-      // ---------------- MEDIA ----------------
       for (const media of report.media || []) {
         await tx.run(
           `
@@ -106,12 +99,11 @@ async function transferReports() {
             hash: safeString(media.hash),
             timestamp: safeDate(media.timestamp),
             deleted: media.deleted || false,
-            metadata: media.metadata || {},
+            metadata: safeObject(media.metadata),
           }
         );
       }
 
-      // ---------------- LOCATIONS ----------------
       for (const loc of report.locations || []) {
         await tx.run(
           `
@@ -133,7 +125,6 @@ async function transferReports() {
         );
       }
 
-      // ---------------- BROWSER HISTORY ----------------
       for (const br of report.browserHistory || []) {
         await tx.run(
           `
@@ -153,7 +144,6 @@ async function transferReports() {
         );
       }
 
-      // ---------------- DOCUMENTS ----------------
       for (const doc of report.documents || []) {
         await tx.run(
           `
@@ -170,7 +160,6 @@ async function transferReports() {
         );
       }
 
-      // ---------------- CONTACTS ----------------
       for (const c of report.contacts || []) {
         await tx.run(
           `
@@ -192,7 +181,89 @@ async function transferReports() {
         );
       }
 
-      // ---------------- ANALYTICS ----------------
+      for (const app of report.apps || []) {
+        await tx.run(
+          `
+          MATCH (r:Report {report_id: $report_id})
+          MERGE (a:App {app_id: $app_id})
+          SET a.name=$name, a.version=$version, a.last_opened=$last_opened,
+              a.type=$type, a.usage_stats=$usage_stats
+          MERGE (r)-[:HAS_APP]->(a)
+          `,
+          {
+            report_id: report.report_id,
+            app_id: safeString(app.app_id, `app_${Date.now()}`),
+            name: safeString(app.name),
+            version: safeString(app.version),
+            last_opened: safeDate(app.last_opened),
+            type: safeString(app.type),
+            usage_stats: safeObject(app.usage_stats),
+          }
+        );
+      }
+
+      for (const crypto of report.crypto || []) {
+        await tx.run(
+          `
+          MATCH (r:Report {report_id: $report_id})
+          MERGE (cr:Crypto {id: $crypto_id})
+          SET cr.currency=$currency, cr.amount=$amount, cr.type=$type,
+              cr.timestamp=$timestamp, cr.source=$source
+          MERGE (r)-[:HAS_CRYPTO]->(cr)
+          `,
+          {
+            report_id: report.report_id,
+            crypto_id: safeString(crypto.id, `crypto_${Date.now()}`),
+            currency: safeString(crypto.currency),
+            amount: safeNumber(crypto.amount),
+            type: safeString(crypto.type),
+            timestamp: safeDate(crypto.timestamp),
+            source: safeString(crypto.source),
+          }
+        );
+      }
+
+      for (const deleted of report.deletedData || []) {
+        await tx.run(
+          `
+          MATCH (r:Report {report_id: $report_id})
+          MERGE (d:DeletedData {original_id: $original_id})
+          SET d.data_type=$data_type, d.recovery_status=$recovery_status,
+              d.timestamp=$timestamp
+          MERGE (r)-[:HAS_DELETED_DATA]->(d)
+          `,
+          {
+            report_id: report.report_id,
+            original_id: safeString(deleted.original_id, `del_${Date.now()}`),
+            data_type: safeString(deleted.data_type),
+            recovery_status: safeString(deleted.recovery_status),
+            timestamp: safeDate(deleted.timestamp),
+          }
+        );
+      }
+
+      if (report.user_profile) {
+        await tx.run(
+          `
+          MATCH (r:Report {report_id: $report_id})
+          MERGE (u:UserProfile {report_id: $report_id})
+          SET u.aliases=$aliases, u.phones=$phones, u.emails=$emails,
+              u.addresses=$addresses, u.cloud_accounts=$cloud_accounts,
+              u.social_handles=$social_handles
+          MERGE (r)-[:HAS_USER_PROFILE]->(u)
+          `,
+          {
+            report_id: report.report_id,
+            aliases: report.user_profile.aliases || [],
+            phones: report.user_profile.phones || [],
+            emails: report.user_profile.emails || [],
+            addresses: report.user_profile.addresses || [],
+            cloud_accounts: report.user_profile.cloud_accounts || [],
+            social_handles: report.user_profile.social_handles || [],
+          }
+        );
+      }
+
       for (const contact of report.analytics?.most_active_contacts || []) {
         await tx.run(
           `
@@ -228,5 +299,4 @@ async function transferReports() {
   }
 }
 
-// ---------------- RUN ----------------
 transferReports();

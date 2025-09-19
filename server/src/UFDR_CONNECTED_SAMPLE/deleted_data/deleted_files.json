@@ -1,0 +1,31 @@
+[
+  {
+    "data_type": "file",
+    "original_id": "wallet_backup_1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa.dat",
+    "recovery_status": "partially_recovered",
+    "timestamp": "2025-09-20T17:10:00.000Z",
+    "file_type": "wallet",
+    "size_bytes": 512000,
+    "deletion_method": "secure_wipe"
+  },
+  {
+    "data_type": "file",
+    "original_id": "contact_list_phones.txt",
+    "recovery_status": "recovered",
+    "timestamp": "2025-09-20T17:12:00.000Z",
+    "file_type": "text",
+    "size_bytes": 1024,
+    "deletion_method": "standard_delete",
+    "content": "Mike Johnson: +1-555-2001\nSarah Wilson: +1-555-3001\nBoss: +1-555-9999"
+  },
+  {
+    "data_type": "file",
+    "original_id": "location_coordinates.txt",
+    "recovery_status": "recovered",
+    "timestamp": "2025-09-20T17:15:00.000Z",
+    "file_type": "text",
+    "size_bytes": 256,
+    "deletion_method": "standard_delete",
+    "content": "Meeting Point 1: 40.7128,-74.0060\nDrop Location: 40.7589,-73.9851\nSafe House: 40.6782,-73.9442"
+  }
+]

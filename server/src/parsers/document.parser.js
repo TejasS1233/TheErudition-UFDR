@@ -4,16 +4,14 @@ import { execFile } from "child_process";
 import mammoth from "mammoth";
 import * as XLSX from "xlsx";
 
-// Configure Poppler path (adjust if installed elsewhere)
 const POPPLER_BIN =
   "C:\\Users\\tejas\\poppler-24.02.0\\Library\\bin\\poppler-25.07.0\\Library\\bin\\pdftotext.exe";
 
-// Helper: extract PDF using Poppler
 const extractPdfWithPoppler = (filePath) => {
   return new Promise((resolve, reject) => {
     execFile(
       POPPLER_BIN,
-      ["-layout", filePath, "-"], // "-" outputs to stdout
+      ["-layout", filePath, "-"],
       { encoding: "utf8" },
       (error, stdout, stderr) => {
         if (error) return reject(error);
@@ -31,25 +29,21 @@ export const parseDocuments = async (filePath) => {
   }
 
   try {
-    // -------------------- PDF --------------------
     if (ext === ".pdf") {
       const text = await extractPdfWithPoppler(filePath);
       return { content: text, file_path: filePath };
     }
 
-    // -------------------- DOCX --------------------
     if (ext === ".docx") {
       const result = await mammoth.extractRawText({ path: filePath });
       return { content: result.value, file_path: filePath };
     }
 
-    // -------------------- DOC (old Word) --------------------
     if (ext === ".doc") {
       const raw = fs.readFileSync(filePath, "utf-8");
       return { content: raw, file_path: filePath };
     }
 
-    // -------------------- XLSX / CSV --------------------
     if (ext === ".xlsx" || ext === ".csv") {
       const workbook = XLSX.readFile(filePath);
       const sheetsData = workbook.SheetNames.map((name) => ({
@@ -59,7 +53,6 @@ export const parseDocuments = async (filePath) => {
       return { content: JSON.stringify(sheetsData, null, 2), file_path: filePath };
     }
 
-    // -------------------- TXT or other plain text --------------------
     const raw = fs.readFileSync(filePath, "utf-8");
     return { content: raw, file_path: filePath };
   } catch (error) {

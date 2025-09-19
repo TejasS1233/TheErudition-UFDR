@@ -44,7 +44,6 @@ export const parseCrypto = async (filePath) => {
       }));
     }
 
-    // ✅ Normalize schema
     const normalized = records.map((item, i) => ({
       id: item.id || item.txid || item.hash || `rec_${i}`,
       currency: item.currency || item.coin || "unknown",

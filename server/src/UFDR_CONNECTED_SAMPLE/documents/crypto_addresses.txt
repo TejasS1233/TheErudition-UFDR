@@ -1,0 +1,17 @@
+WALLET ADDRESSES FOR OPERATION:
+
+Primary Wallet: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa (John Smith)
+Secondary Wallet: bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh (Mike Johnson)
+Sarah's Wallet: 35hK24tcLEWcgNA4JxpvbkNkoAcDGqQPsP
+Backup Wallet: 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
+
+PHONE NUMBERS:
+John: +1-555-1001, +1-555-1002
+Mike: +1-555-2001
+Sarah: +1-555-3001
+Boss: +1-555-9999
+
+LOCATIONS:
+Meeting Point: 40.7128,-74.0060
+Drop Zone: 40.7589,-73.9851
+Safe House: 40.6782,-73.9442

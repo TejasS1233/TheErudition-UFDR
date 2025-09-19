@@ -1,0 +1,51 @@
+[
+  {
+    "id": "HIST001",
+    "browser": "chrome",
+    "url": "https://www.blockchain.com/btc/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+    "title": "Bitcoin Address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa - Blockchain Explorer",
+    "timestamp": "2025-09-20T15:20:00.000Z"
+  },
+  {
+    "id": "HIST002",
+    "browser": "chrome",
+    "url": "https://www.blockchain.com/btc/address/bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+    "title": "Bitcoin Address bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh - Blockchain Explorer",
+    "timestamp": "2025-09-20T15:22:00.000Z"
+  },
+  {
+    "id": "HIST003",
+    "browser": "chrome",
+    "url": "https://tornado.cash/",
+    "title": "Tornado Cash - Privacy Solution for Ethereum",
+    "timestamp": "2025-09-20T16:20:00.000Z"
+  },
+  {
+    "id": "HIST004",
+    "browser": "chrome",
+    "url": "https://maps.google.com/search/40.7128,-74.0060",
+    "title": "40.7128,-74.0060 - Google Maps",
+    "timestamp": "2025-09-20T14:50:00.000Z"
+  },
+  {
+    "id": "HIST005",
+    "browser": "chrome",
+    "url": "https://maps.google.com/search/40.7589,-73.9851",
+    "title": "40.7589,-73.9851 - Google Maps",
+    "timestamp": "2025-09-20T15:50:00.000Z"
+  },
+  {
+    "id": "HIST006",
+    "browser": "chrome",
+    "url": "https://www.blockchain.com/btc/address/35hK24tcLEWcgNA4JxpvbkNkoAcDGqQPsP",
+    "title": "Bitcoin Address 35hK24tcLEWcgNA4JxpvbkNkoAcDGqQPsP - Blockchain Explorer",
+    "timestamp": "2025-09-20T17:55:00.000Z"
+  },
+  {
+    "id": "HIST007",
+    "browser": "chrome",
+    "url": "https://signal.org/download",
+    "title": "Signal - Private Messenger Download",
+    "timestamp": "2025-09-20T14:00:00.000Z"
+  }
+]

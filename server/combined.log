@@ -216,3 +216,350 @@
 {"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:48:38.021Z"}
 {"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:48:38.128Z"}
 {"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:48:38.138Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:03:23.716Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T18:03:23.729Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:03:23.732Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758305003732","timestamp":"2025-09-19T18:03:23.733Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:03:23.736Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:03:23.740Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:03:23.951Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:03:23.955Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758305003957","timestamp":"2025-09-19T18:03:24.034Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd9aec8813422e221757f4","timestamp":"2025-09-19T18:03:24.121Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:03:24.124Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:03:24.126Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:03:24.142Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:03:24.144Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:06:25.639Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T18:06:25.642Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:06:25.643Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758305185643","timestamp":"2025-09-19T18:06:25.643Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:06:25.644Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:06:25.645Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:06:25.766Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:06:25.768Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758305185769","timestamp":"2025-09-19T18:06:25.827Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd9ba177423216746f3745","timestamp":"2025-09-19T18:06:26.306Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:06:26.313Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:06:26.314Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:06:26.326Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:06:26.327Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:09:12.713Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T18:09:12.716Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:09:12.716Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758305352716","timestamp":"2025-09-19T18:09:12.717Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:09:12.718Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:09:12.718Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:09:12.773Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:09:12.773Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758305352774","timestamp":"2025-09-19T18:09:12.790Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd9c48689a87e035725015","timestamp":"2025-09-19T18:09:13.426Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:09:13.431Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:09:13.432Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:09:13.451Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:09:13.452Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:10:38.422Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T18:10:38.425Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:10:38.427Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758305438427","timestamp":"2025-09-19T18:10:38.429Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:10:38.431Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:10:38.434Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:10:38.535Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:10:38.535Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758305438536","timestamp":"2025-09-19T18:10:38.563Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd9c9eb5a4befb79d0e013","timestamp":"2025-09-19T18:10:38.620Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:10:38.622Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:10:38.622Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:10:38.635Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:10:38.638Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:11:49.480Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11156},"level":"info","message":"File received:","timestamp":"2025-09-19T18:11:49.482Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:11:49.485Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758305509484","timestamp":"2025-09-19T18:11:49.486Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:11:49.488Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:11:49.488Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:11:49.631Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:11:49.631Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758305509632","timestamp":"2025-09-19T18:11:49.679Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd9ce5b5a4befb79d0e020","timestamp":"2025-09-19T18:11:49.739Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:11:49.741Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:11:49.742Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:11:49.778Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:11:49.779Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:17:40.103Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11156},"level":"info","message":"File received:","timestamp":"2025-09-19T18:17:40.108Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:17:40.110Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758305860110","timestamp":"2025-09-19T18:17:40.111Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:17:40.115Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:17:40.118Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:17:40.448Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:17:40.449Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758305860451","timestamp":"2025-09-19T18:17:40.539Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd9e442f770d1cbf2ecff0","timestamp":"2025-09-19T18:17:40.665Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:17:40.669Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:17:40.671Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:17:40.753Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:17:40.754Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:19:37.744Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11156},"level":"info","message":"File received:","timestamp":"2025-09-19T18:19:37.751Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:19:37.755Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758305977754","timestamp":"2025-09-19T18:19:37.757Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:19:37.759Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:19:37.761Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:19:37.920Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:19:37.921Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758305977922","timestamp":"2025-09-19T18:19:38.019Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd9eba9333dfcbcf662fb7","timestamp":"2025-09-19T18:19:38.136Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:19:38.138Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:19:38.141Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:19:38.197Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:19:38.198Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:21:25.162Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11156},"level":"info","message":"File received:","timestamp":"2025-09-19T18:21:25.175Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:21:25.183Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306085182","timestamp":"2025-09-19T18:21:25.195Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:21:25.205Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:21:25.206Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:21:25.394Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:21:25.396Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306085182","level":"info","message":"Processing UFDR folder:","timestamp":"2025-09-19T18:21:25.398Z"}
+{"contents":["UFDR_SAMPLE"],"level":"info","message":"Folder contents:","timestamp":"2025-09-19T18:21:25.400Z"}
+{"level":"info","message":"Found nested UFDR_SAMPLE folder, using that instead","timestamp":"2025-09-19T18:21:25.405Z"}
+{"level":"info","message":"Nested folder contents:","nestedContents":["apps","browser_history","calls","deleted_data","documents","locations","media"],"timestamp":"2025-09-19T18:21:25.406Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306085182\\UFDR_SAMPLE","level":"info","message":"Looking for messages in:","timestamp":"2025-09-19T18:21:25.415Z"}
+{"level":"info","message":"Found message files:","msgFiles":[],"timestamp":"2025-09-19T18:21:25.416Z"}
+{"count":0,"level":"info","message":"Parsed messages count:","timestamp":"2025-09-19T18:21:25.417Z"}
+{"callFiles":[],"level":"info","message":"Found call files:","timestamp":"2025-09-19T18:21:25.419Z"}
+{"callXmlFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306085182\\UFDR_SAMPLE\\calls\\calls.xml"],"level":"info","message":"Found call XML files:","timestamp":"2025-09-19T18:21:25.422Z"}
+{"count":0,"level":"info","message":"Parsed calls count:","timestamp":"2025-09-19T18:21:25.432Z"}
+{"appFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306085182\\UFDR_SAMPLE\\apps\\installed_apps.json"],"level":"info","message":"Found app files:","timestamp":"2025-09-19T18:21:25.509Z"}
+{"count":5,"level":"info","message":"Parsed apps count:","timestamp":"2025-09-19T18:21:25.513Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758306085398","timestamp":"2025-09-19T18:21:25.516Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd9f250864b30f190ad4ba","timestamp":"2025-09-19T18:21:25.630Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:21:25.631Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:21:25.650Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:21:25.703Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:21:25.704Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:23:37.622Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11156},"level":"info","message":"File received:","timestamp":"2025-09-19T18:23:37.628Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:23:37.630Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306217630","timestamp":"2025-09-19T18:23:37.632Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:23:37.634Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:23:37.635Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:23:37.748Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:23:37.750Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306217630","level":"info","message":"Processing UFDR folder:","timestamp":"2025-09-19T18:23:37.751Z"}
+{"contents":["UFDR_SAMPLE"],"level":"info","message":"Folder contents:","timestamp":"2025-09-19T18:23:37.752Z"}
+{"level":"info","message":"Found nested UFDR_SAMPLE folder, using that instead","timestamp":"2025-09-19T18:23:37.754Z"}
+{"level":"info","message":"Nested folder contents:","nestedContents":["apps","browser_history","calls","deleted_data","documents","locations","media"],"timestamp":"2025-09-19T18:23:37.755Z"}
+{"level":"info","message":"Messages folder exists:","messagesExists":false,"messagesPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306217630\\UFDR_SAMPLE\\messages","timestamp":"2025-09-19T18:23:37.755Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306217630\\UFDR_SAMPLE","level":"info","message":"Looking for messages in:","timestamp":"2025-09-19T18:23:37.766Z"}
+{"level":"info","message":"Found message files:","msgFiles":[],"timestamp":"2025-09-19T18:23:37.767Z"}
+{"count":0,"level":"info","message":"Parsed messages count:","timestamp":"2025-09-19T18:23:37.769Z"}
+{"callFiles":[],"level":"info","message":"Found call files:","timestamp":"2025-09-19T18:23:37.773Z"}
+{"callXmlFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306217630\\UFDR_SAMPLE\\calls\\calls.xml"],"level":"info","message":"Found call XML files:","timestamp":"2025-09-19T18:23:37.778Z"}
+{"count":5,"level":"info","message":"Parsed calls count:","timestamp":"2025-09-19T18:23:37.788Z"}
+{"browserFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306217630\\UFDR_SAMPLE\\browser_history\\firefox_history.json"],"level":"info","message":"Found browser files:","timestamp":"2025-09-19T18:23:37.798Z"}
+{"count":5,"level":"info","message":"Parsed browser history count:","timestamp":"2025-09-19T18:23:37.800Z"}
+{"cryptoFiles":[],"level":"info","message":"Found crypto/transaction files:","timestamp":"2025-09-19T18:23:37.856Z"}
+{"count":0,"level":"info","message":"Parsed crypto count:","timestamp":"2025-09-19T18:23:37.857Z"}
+{"appFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306217630\\UFDR_SAMPLE\\apps\\installed_apps.json"],"level":"info","message":"Found app files:","timestamp":"2025-09-19T18:23:37.867Z"}
+{"count":5,"level":"info","message":"Parsed apps count:","timestamp":"2025-09-19T18:23:37.871Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758306217751","timestamp":"2025-09-19T18:23:37.877Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd9fa96a01d9721999fa7a","timestamp":"2025-09-19T18:23:37.983Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:23:37.986Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:23:37.987Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:23:38.009Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:23:38.010Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:26:52.059Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE_COMPLETE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE_COMPLETE.zip","path":"public\\temp\\UFDR_SAMPLE_COMPLETE.zip","size":6985},"level":"info","message":"File received:","timestamp":"2025-09-19T18:26:52.069Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:26:52.071Z","zipFilePath":"public\\temp\\UFDR_SAMPLE_COMPLETE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071","timestamp":"2025-09-19T18:26:52.072Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:26:52.078Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:26:52.082Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:26:52.222Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:26:52.223Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071","level":"info","message":"Processing UFDR folder:","timestamp":"2025-09-19T18:26:52.224Z"}
+{"contents":["apps","browser_history","calls","deleted_data","documents","locations","media","messages","security","transactions","user_profile.json"],"level":"info","message":"Folder contents:","timestamp":"2025-09-19T18:26:52.227Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071","level":"info","message":"Looking for messages in:","timestamp":"2025-09-19T18:26:52.241Z"}
+{"level":"info","message":"Found message files:","msgFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071\\messages\\messages.json"],"timestamp":"2025-09-19T18:26:52.242Z"}
+{"count":10,"level":"info","message":"Parsed messages count:","timestamp":"2025-09-19T18:26:52.243Z"}
+{"callFiles":[],"level":"info","message":"Found call files:","timestamp":"2025-09-19T18:26:52.245Z"}
+{"callXmlFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071\\calls\\calls.xml"],"level":"info","message":"Found call XML files:","timestamp":"2025-09-19T18:26:52.247Z"}
+{"count":5,"level":"info","message":"Parsed calls count:","timestamp":"2025-09-19T18:26:52.256Z"}
+{"level":"info","mediaFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071\\media\\audio","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071\\media\\images","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071\\media\\videos"],"message":"Found media files:","timestamp":"2025-09-19T18:26:52.262Z"}
+{"count":0,"level":"info","message":"Parsed media count:","timestamp":"2025-09-19T18:26:52.265Z"}
+{"browserFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071\\browser_history\\firefox_history.json"],"level":"info","message":"Found browser files:","timestamp":"2025-09-19T18:26:52.268Z"}
+{"count":5,"level":"info","message":"Parsed browser history count:","timestamp":"2025-09-19T18:26:52.269Z"}
+{"cryptoFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071\\transactions\\crypto_txns.json"],"level":"info","message":"Found crypto/transaction files:","timestamp":"2025-09-19T18:26:52.304Z"}
+{"count":2,"level":"info","message":"Parsed crypto count:","timestamp":"2025-09-19T18:26:52.306Z"}
+{"level":"info","locationFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071\\locations\\locations.csv"],"message":"Found location files:","timestamp":"2025-09-19T18:26:52.311Z"}
+{"count":3,"level":"info","message":"Parsed locations count:","timestamp":"2025-09-19T18:26:52.318Z"}
+{"appFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306412071\\apps\\installed_apps.json"],"level":"info","message":"Found app files:","timestamp":"2025-09-19T18:26:52.319Z"}
+{"count":5,"level":"info","message":"Parsed apps count:","timestamp":"2025-09-19T18:26:52.321Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758306412224","timestamp":"2025-09-19T18:26:52.326Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cda06ca248617fba32f1eb","timestamp":"2025-09-19T18:26:52.494Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:26:52.495Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:26:52.496Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:26:52.554Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:26:52.555Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:29:15.000Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE_COMPLETE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE_COMPLETE.zip","path":"public\\temp\\UFDR_SAMPLE_COMPLETE.zip","size":6985},"level":"info","message":"File received:","timestamp":"2025-09-19T18:29:15.002Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:29:15.003Z","zipFilePath":"public\\temp\\UFDR_SAMPLE_COMPLETE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003","timestamp":"2025-09-19T18:29:15.004Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:29:15.005Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:29:15.006Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:29:15.084Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:29:15.085Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003","level":"info","message":"Processing UFDR folder:","timestamp":"2025-09-19T18:29:15.085Z"}
+{"contents":["apps","browser_history","calls","deleted_data","documents","locations","media","messages","security","transactions","user_profile.json"],"level":"info","message":"Folder contents:","timestamp":"2025-09-19T18:29:15.086Z"}
+{"level":"info","message":"Parsed user profile:","timestamp":"2025-09-19T18:29:15.087Z","userProfile":{"addresses":["43175 E 14th Street","7830 Audie Forks"],"aliases":["Laurie2","Ansel.Stroman"],"cloud_accounts":["Rosalind_Hessel","Bethany45"],"emails":["Scarlett.Bartell@yahoo.com","Vena_Lang@gmail.com"],"phones":["(289) 385-7820 x220","(745) 566-3708 x211"],"social_handles":["Madison_Legros91","Orpha.Dickinson"]}}
+{"level":"info","message":"Found message files:","msgFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\messages\\messages.json"],"timestamp":"2025-09-19T18:29:15.089Z"}
+{"count":10,"level":"info","message":"Parsed messages count:","timestamp":"2025-09-19T18:29:15.090Z"}
+{"callFiles":[],"level":"info","message":"Found call files:","timestamp":"2025-09-19T18:29:15.091Z"}
+{"callXmlFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\calls\\calls.xml"],"level":"info","message":"Found call XML files:","timestamp":"2025-09-19T18:29:15.092Z"}
+{"count":5,"level":"info","message":"Parsed calls count:","timestamp":"2025-09-19T18:29:15.095Z"}
+{"level":"info","mediaFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\media\\audio\\audio_001.mp3","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\media\\images\\img_001.jpg","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\media\\images\\img_002.png","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\media\\videos\\video_001.mp4"],"message":"Found media files:","timestamp":"2025-09-19T18:29:15.096Z"}
+{"count":0,"level":"info","message":"Parsed media count:","timestamp":"2025-09-19T18:29:15.201Z"}
+{"browserFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\browser_history\\firefox_history.json"],"level":"info","message":"Found browser files:","timestamp":"2025-09-19T18:29:15.203Z"}
+{"count":5,"level":"info","message":"Parsed browser history count:","timestamp":"2025-09-19T18:29:15.204Z"}
+{"cryptoFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\transactions\\crypto_txns.json"],"level":"info","message":"Found crypto/transaction files:","timestamp":"2025-09-19T18:29:15.215Z"}
+{"count":2,"level":"info","message":"Parsed crypto count:","timestamp":"2025-09-19T18:29:15.215Z"}
+{"level":"info","locationFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\locations\\locations.csv"],"message":"Found location files:","timestamp":"2025-09-19T18:29:15.217Z"}
+{"count":3,"level":"info","message":"Parsed locations count:","timestamp":"2025-09-19T18:29:15.220Z"}
+{"appFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306555003\\apps\\installed_apps.json"],"level":"info","message":"Found app files:","timestamp":"2025-09-19T18:29:15.220Z"}
+{"count":5,"level":"info","message":"Parsed apps count:","timestamp":"2025-09-19T18:29:15.221Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758306555085","timestamp":"2025-09-19T18:29:15.225Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cda0fbbac6df50a426fe38","timestamp":"2025-09-19T18:29:15.306Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:29:15.307Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:29:15.308Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:29:15.322Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:29:15.323Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:34:32.524Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE_COMPLETE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE_COMPLETE.zip","path":"public\\temp\\UFDR_SAMPLE_COMPLETE.zip","size":6985},"level":"info","message":"File received:","timestamp":"2025-09-19T18:34:32.536Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:34:32.561Z","zipFilePath":"public\\temp\\UFDR_SAMPLE_COMPLETE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561","timestamp":"2025-09-19T18:34:32.571Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:34:32.573Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:34:32.588Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:34:32.791Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:34:32.796Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561","level":"info","message":"Processing UFDR folder:","timestamp":"2025-09-19T18:34:32.798Z"}
+{"contents":["apps","browser_history","calls","deleted_data","documents","locations","media","messages","security","transactions","user_profile.json"],"level":"info","message":"Folder contents:","timestamp":"2025-09-19T18:34:32.804Z"}
+{"level":"info","message":"Parsed user profile:","timestamp":"2025-09-19T18:34:32.807Z","userProfile":{"addresses":["43175 E 14th Street","7830 Audie Forks"],"aliases":["Laurie2","Ansel.Stroman"],"cloud_accounts":["Rosalind_Hessel","Bethany45"],"emails":["Scarlett.Bartell@yahoo.com","Vena_Lang@gmail.com"],"phones":["(289) 385-7820 x220","(745) 566-3708 x211"],"social_handles":["Madison_Legros91","Orpha.Dickinson"]}}
+{"level":"info","message":"Found message files:","msgFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\messages\\messages.json"],"timestamp":"2025-09-19T18:34:32.871Z"}
+{"count":10,"level":"info","message":"Parsed messages count:","timestamp":"2025-09-19T18:34:32.876Z"}
+{"callFiles":[],"level":"info","message":"Found call files:","timestamp":"2025-09-19T18:34:32.879Z"}
+{"callXmlFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\calls\\calls.xml"],"level":"info","message":"Found call XML files:","timestamp":"2025-09-19T18:34:32.883Z"}
+{"count":5,"level":"info","message":"Parsed calls count:","timestamp":"2025-09-19T18:34:32.911Z"}
+{"level":"info","mediaFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\media\\audio\\audio_001.mp3","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\media\\images\\img_001.jpg","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\media\\images\\img_002.png","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\media\\videos\\video_001.mp4"],"message":"Found media files:","timestamp":"2025-09-19T18:34:32.916Z"}
+{"count":0,"level":"info","message":"Parsed media count:","timestamp":"2025-09-19T18:34:33.580Z"}
+{"browserFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\browser_history\\firefox_history.json"],"level":"info","message":"Found browser files:","timestamp":"2025-09-19T18:34:33.584Z"}
+{"count":5,"level":"info","message":"Parsed browser history count:","timestamp":"2025-09-19T18:34:33.585Z"}
+{"cryptoFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\transactions\\crypto_txns.json"],"level":"info","message":"Found crypto/transaction files:","timestamp":"2025-09-19T18:34:33.650Z"}
+{"count":2,"level":"info","message":"Parsed crypto count:","timestamp":"2025-09-19T18:34:33.652Z"}
+{"level":"info","locationFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\locations\\locations.csv"],"message":"Found location files:","timestamp":"2025-09-19T18:34:33.669Z"}
+{"count":3,"level":"info","message":"Parsed locations count:","timestamp":"2025-09-19T18:34:33.683Z"}
+{"appFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758306872561\\apps\\installed_apps.json"],"level":"info","message":"Found app files:","timestamp":"2025-09-19T18:34:33.687Z"}
+{"count":5,"level":"info","message":"Parsed apps count:","timestamp":"2025-09-19T18:34:33.689Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758306872798","timestamp":"2025-09-19T18:34:33.697Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cda239ef7907c7f6803ed6","timestamp":"2025-09-19T18:34:33.867Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:34:33.875Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:34:33.888Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:34:33.948Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:34:33.949Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:37:21.633Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE_COMPLETE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE_COMPLETE.zip","path":"public\\temp\\UFDR_SAMPLE_COMPLETE.zip","size":6985},"level":"info","message":"File received:","timestamp":"2025-09-19T18:37:21.636Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:37:21.638Z","zipFilePath":"public\\temp\\UFDR_SAMPLE_COMPLETE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638","timestamp":"2025-09-19T18:37:21.639Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:37:21.640Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:37:21.640Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:37:21.751Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:37:21.756Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638","level":"info","message":"Processing UFDR folder:","timestamp":"2025-09-19T18:37:21.759Z"}
+{"contents":["apps","browser_history","calls","deleted_data","documents","locations","media","messages","security","transactions","user_profile.json"],"level":"info","message":"Folder contents:","timestamp":"2025-09-19T18:37:21.765Z"}
+{"level":"info","message":"Parsed user profile:","timestamp":"2025-09-19T18:37:21.767Z","userProfile":{"addresses":["43175 E 14th Street","7830 Audie Forks"],"aliases":["Laurie2","Ansel.Stroman"],"cloud_accounts":["Rosalind_Hessel","Bethany45"],"emails":["Scarlett.Bartell@yahoo.com","Vena_Lang@gmail.com"],"phones":["(289) 385-7820 x220","(745) 566-3708 x211"],"social_handles":["Madison_Legros91","Orpha.Dickinson"]}}
+{"level":"info","message":"Found message files:","msgFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\messages\\messages.json"],"timestamp":"2025-09-19T18:37:21.774Z"}
+{"count":10,"level":"info","message":"Parsed messages count:","timestamp":"2025-09-19T18:37:21.775Z"}
+{"callFiles":[],"level":"info","message":"Found call files:","timestamp":"2025-09-19T18:37:21.779Z"}
+{"callXmlFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\calls\\calls.xml"],"level":"info","message":"Found call XML files:","timestamp":"2025-09-19T18:37:21.780Z"}
+{"count":5,"level":"info","message":"Parsed calls count:","timestamp":"2025-09-19T18:37:21.789Z"}
+{"level":"info","mediaFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\media\\audio\\audio_001.mp3","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\media\\images\\img_001.jpg","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\media\\images\\img_002.png","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\media\\videos\\video_001.mp4"],"message":"Found media files:","timestamp":"2025-09-19T18:37:21.792Z"}
+{"count":0,"level":"info","message":"Parsed media count:","timestamp":"2025-09-19T18:37:21.930Z"}
+{"browserFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\browser_history\\firefox_history.json"],"level":"info","message":"Found browser files:","timestamp":"2025-09-19T18:37:21.932Z"}
+{"count":5,"level":"info","message":"Parsed browser history count:","timestamp":"2025-09-19T18:37:21.934Z"}
+{"cryptoFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\transactions\\crypto_txns.json"],"level":"info","message":"Found crypto/transaction files:","timestamp":"2025-09-19T18:37:21.963Z"}
+{"count":2,"level":"info","message":"Parsed crypto count:","timestamp":"2025-09-19T18:37:21.965Z"}
+{"level":"info","locationFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\locations\\locations.csv"],"message":"Found location files:","timestamp":"2025-09-19T18:37:21.972Z"}
+{"count":3,"level":"info","message":"Parsed locations count:","timestamp":"2025-09-19T18:37:21.984Z"}
+{"appFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307041638\\apps\\installed_apps.json"],"level":"info","message":"Found app files:","timestamp":"2025-09-19T18:37:21.985Z"}
+{"count":5,"level":"info","message":"Parsed apps count:","timestamp":"2025-09-19T18:37:21.986Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758307041759","timestamp":"2025-09-19T18:37:21.990Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cda2e169aa837baec28f91","timestamp":"2025-09-19T18:37:22.110Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:37:22.115Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:37:22.116Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:37:22.156Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:37:22.156Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T18:51:55.836Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_FORENSIC_COMPLETE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_FORENSIC_COMPLETE.zip","path":"public\\temp\\UFDR_FORENSIC_COMPLETE.zip","size":6037},"level":"info","message":"File received:","timestamp":"2025-09-19T18:51:55.840Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T18:51:55.841Z","zipFilePath":"public\\temp\\UFDR_FORENSIC_COMPLETE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841","timestamp":"2025-09-19T18:51:55.842Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T18:51:55.843Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T18:51:55.844Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T18:51:55.909Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T18:51:55.910Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841","level":"info","message":"Processing UFDR folder:","timestamp":"2025-09-19T18:51:55.911Z"}
+{"contents":["apps","browser_history","calls","deleted_data","documents","locations","media","messages","transactions","user_profile.json"],"level":"info","message":"Folder contents:","timestamp":"2025-09-19T18:51:55.912Z"}
+{"level":"info","message":"Parsed user profile:","timestamp":"2025-09-19T18:51:55.913Z","userProfile":{"addresses":["1234 Main Street, Downtown City","5678 Oak Avenue, Suburb Town"],"aliases":["A_Rod","CryptoKing2024","AlexR_Business"],"cloud_accounts":["alex.rodriguez.icloud","cryptoking_gdrive"],"emails":["alex.rodriguez@email.com","cryptoking2024@protonmail.com","business.alex@tempmail.org"],"name":"Alex Rodriguez","phones":["+1-555-0123","+1-555-0456"],"social_handles":["@AlexR_Official","@CryptoKing2024","alex.rodriguez.linkedin"]}}
+{"level":"info","message":"Found message files:","msgFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\messages\\messages.json"],"timestamp":"2025-09-19T18:51:55.918Z"}
+{"count":8,"level":"info","message":"Parsed messages count:","timestamp":"2025-09-19T18:51:55.918Z"}
+{"callFiles":[],"level":"info","message":"Found call files:","timestamp":"2025-09-19T18:51:55.919Z"}
+{"callXmlFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\calls\\calls.xml"],"level":"info","message":"Found call XML files:","timestamp":"2025-09-19T18:51:55.920Z"}
+{"count":5,"level":"info","message":"Parsed calls count:","timestamp":"2025-09-19T18:51:55.923Z"}
+{"level":"info","mediaFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\media\\audio\\phone_call_recording.mp3","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\media\\images\\money_counting.png","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\media\\images\\warehouse_surveillance.jpg","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\media\\videos\\meeting_recording.mp4"],"message":"Found media files:","timestamp":"2025-09-19T18:51:55.924Z"}
+{"count":0,"level":"info","message":"Parsed media count:","timestamp":"2025-09-19T18:51:56.027Z"}
+{"browserFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\browser_history\\chrome_history.json"],"level":"info","message":"Found browser files:","timestamp":"2025-09-19T18:51:56.028Z"}
+{"count":7,"level":"info","message":"Parsed browser history count:","timestamp":"2025-09-19T18:51:56.028Z"}
+{"cryptoFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\transactions\\crypto_txns.json"],"level":"info","message":"Found crypto/transaction files:","timestamp":"2025-09-19T18:51:56.034Z"}
+{"count":4,"level":"info","message":"Parsed crypto count:","timestamp":"2025-09-19T18:51:56.035Z"}
+{"level":"info","locationFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\locations\\locations.csv"],"message":"Found location files:","timestamp":"2025-09-19T18:51:56.037Z"}
+{"count":5,"level":"info","message":"Parsed locations count:","timestamp":"2025-09-19T18:51:56.043Z"}
+{"appFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758307915841\\apps\\installed_apps.json"],"level":"info","message":"Found app files:","timestamp":"2025-09-19T18:51:56.044Z"}
+{"count":6,"level":"info","message":"Parsed apps count:","timestamp":"2025-09-19T18:51:56.045Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758307915911","timestamp":"2025-09-19T18:51:56.046Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cda64c26db491ff14c99fe","timestamp":"2025-09-19T18:51:56.175Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T18:51:56.176Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T18:51:56.177Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T18:51:56.195Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T18:51:56.196Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T19:07:49.260Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_CONNECTED_COMPLETE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_CONNECTED_COMPLETE.zip","path":"public\\temp\\UFDR_CONNECTED_COMPLETE.zip","size":6084},"level":"info","message":"File received:","timestamp":"2025-09-19T19:07:49.270Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T19:07:49.278Z","zipFilePath":"public\\temp\\UFDR_CONNECTED_COMPLETE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277","timestamp":"2025-09-19T19:07:49.280Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T19:07:49.290Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T19:07:49.295Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T19:07:49.402Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T19:07:49.403Z"}
+{"folderPath":"C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277","level":"info","message":"Processing UFDR folder:","timestamp":"2025-09-19T19:07:49.404Z"}
+{"contents":["apps","browser_history","calls","deleted_data","documents","locations","media","messages","transactions","user_profile.json"],"level":"info","message":"Folder contents:","timestamp":"2025-09-19T19:07:49.405Z"}
+{"level":"info","message":"Parsed user profile:","timestamp":"2025-09-19T19:07:49.418Z","userProfile":{"addresses":["123 Criminal Street, Vice City","456 Money Lane, Cash Town"],"aliases":["BigBoss","JS_Crypto","TheKingpin"],"cloud_accounts":["johnsmith_drive","bigboss_cloud"],"emails":["john.smith@email.com","bigboss@protonmail.com"],"name":"John Smith","phones":["+1-555-1001","+1-555-1002"],"social_handles":["@BigBossOfficial","@JS_Crypto_King"]}}
+{"level":"info","message":"Found message files:","msgFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277\\messages\\messages.json"],"timestamp":"2025-09-19T19:07:49.423Z"}
+{"count":8,"level":"info","message":"Parsed messages count:","timestamp":"2025-09-19T19:07:49.426Z"}
+{"callFiles":[],"level":"info","message":"Found call files:","timestamp":"2025-09-19T19:07:49.429Z"}
+{"callXmlFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277\\calls\\calls.xml"],"level":"info","message":"Found call XML files:","timestamp":"2025-09-19T19:07:49.431Z"}
+{"count":6,"level":"info","message":"Parsed calls count:","timestamp":"2025-09-19T19:07:49.443Z"}
+{"level":"info","mediaFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277\\media\\audio\\call_recording_555-1001_to_555-2001.mp3","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277\\media\\images\\location_40.7128_-74.0060.jpg","C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277\\media\\images\\wallet_qr_1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa.png"],"message":"Found media files:","timestamp":"2025-09-19T19:07:49.448Z"}
+{"count":0,"level":"info","message":"Parsed media count:","timestamp":"2025-09-19T19:07:49.656Z"}
+{"browserFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277\\browser_history\\chrome_history.json"],"level":"info","message":"Found browser files:","timestamp":"2025-09-19T19:07:49.657Z"}
+{"count":7,"level":"info","message":"Parsed browser history count:","timestamp":"2025-09-19T19:07:49.657Z"}
+{"cryptoFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277\\transactions\\crypto_txns.json"],"level":"info","message":"Found crypto/transaction files:","timestamp":"2025-09-19T19:07:49.659Z"}
+{"count":5,"level":"info","message":"Parsed crypto count:","timestamp":"2025-09-19T19:07:49.660Z"}
+{"level":"info","locationFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277\\locations\\locations.csv"],"message":"Found location files:","timestamp":"2025-09-19T19:07:49.661Z"}
+{"count":7,"level":"info","message":"Parsed locations count:","timestamp":"2025-09-19T19:07:49.674Z"}
+{"appFiles":["C:\\Users\\Omar\\AppData\\Local\\Temp\\ufdr_unzipped\\1758308869277\\apps\\installed_apps.json"],"level":"info","message":"Found app files:","timestamp":"2025-09-19T19:07:49.678Z"}
+{"count":6,"level":"info","message":"Parsed apps count:","timestamp":"2025-09-19T19:07:49.684Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758308869404","timestamp":"2025-09-19T19:07:49.691Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cdaa05913c3160e104d697","timestamp":"2025-09-19T19:07:50.247Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T19:07:50.249Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T19:07:50.249Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T19:07:50.277Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T19:07:50.277Z"}

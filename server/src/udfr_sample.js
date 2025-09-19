@@ -12,7 +12,6 @@ const __dirname = path.dirname(__filename);
 
 const UFDR_FOLDER = path.join(__dirname, "UFDR_SAMPLE");
 
-// -------------------- Helpers --------------------
 const mkdir = (folderPath) => {
   if (!fs.existsSync(folderPath)) fs.mkdirSync(folderPath, { recursive: true });
 };
@@ -76,11 +75,9 @@ const createDummySQLite = async (folder, fileName) => {
   await db.close();
 };
 
-// -------------------- Main --------------------
 const generateUFDRSample = async () => {
   mkdir(UFDR_FOLDER);
 
-  // -------- Messages (JSON) --------
   const messagesFolder = path.join(UFDR_FOLDER, "messages");
   mkdir(messagesFolder);
   const msgJSON = Array.from({ length: 10 }, (_, i) => ({
@@ -95,7 +92,6 @@ const generateUFDRSample = async () => {
   }));
   writeJSON(messagesFolder, "messages.json", msgJSON);
 
-  // -------- Calls (XML) --------
   const callsFolder = path.join(UFDR_FOLDER, "calls");
   mkdir(callsFolder);
   const callXML = Array.from({ length: 5 }, (_, i) => ({
@@ -109,7 +105,6 @@ const generateUFDRSample = async () => {
   }));
   writeXML(callsFolder, "calls.xml", "calls", callXML);
 
-  // -------- Media --------
   const mediaFolder = path.join(UFDR_FOLDER, "media");
   mkdir(mediaFolder);
   ["images", "videos", "audio"].forEach((sub) => mkdir(path.join(mediaFolder, sub)));
@@ -118,14 +113,12 @@ const generateUFDRSample = async () => {
   createDummyMedia(path.join(mediaFolder, "videos"), "video_001", "mp4");
   createDummyMedia(path.join(mediaFolder, "audio"), "audio_001", "mp3");
 
-  // -------- Documents --------
   const docsFolder = path.join(UFDR_FOLDER, "documents");
   mkdir(docsFolder);
   await createDummyPDF(docsFolder, "file_001.pdf");
   createDummyDoc(docsFolder, "file_002.docx");
   fs.writeFileSync(path.join(docsFolder, "file_003.xlsx"), "Dummy Excel content");
 
-  // -------- Browser History --------
   const browserFolder = path.join(UFDR_FOLDER, "browser_history");
   mkdir(browserFolder);
   await createDummySQLite(browserFolder, "chrome_history.db");
@@ -139,7 +132,6 @@ const generateUFDRSample = async () => {
     }))
   );
 
-  // -------- Locations (CSV) --------
   const locFolder = path.join(UFDR_FOLDER, "locations");
   mkdir(locFolder);
   writeCSV(
@@ -154,7 +146,6 @@ const generateUFDRSample = async () => {
     ])
   );
 
-  // -------- Transactions (JSON) --------
   const txnFolder = path.join(UFDR_FOLDER, "transactions");
   mkdir(txnFolder);
   writeJSON(
@@ -170,7 +161,6 @@ const generateUFDRSample = async () => {
     }))
   );
 
-  // -------- Apps --------
   const appsFolder = path.join(UFDR_FOLDER, "apps");
   mkdir(appsFolder);
   writeJSON(
@@ -185,7 +175,6 @@ const generateUFDRSample = async () => {
     }))
   );
 
-  // -------- Security --------
   const secFolder = path.join(UFDR_FOLDER, "security");
   mkdir(secFolder);
   writeJSON(secFolder, "device_security.json", {
@@ -195,7 +184,6 @@ const generateUFDRSample = async () => {
     system_logs: [faker.lorem.sentence(), faker.lorem.sentence()],
   });
 
-  // -------- Deleted Data --------
   const delFolder = path.join(UFDR_FOLDER, "deleted_data");
   mkdir(delFolder);
   writeJSON(

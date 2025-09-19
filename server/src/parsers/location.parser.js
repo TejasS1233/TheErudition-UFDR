@@ -50,7 +50,6 @@ export const parseLocations = async (filePath) => {
       }));
     }
 
-    // ✅ Normalize schema
     return records.map((loc, i) => ({
       location_id: loc.id || loc.location_id || `loc_${i}`,
       latitude: parseFloat(loc.latitude || loc.lat || 0),

@@ -28,6 +28,16 @@ export const parseCalls = async (filePath) => {
           timestamp: c.timestamp?.[0],
           deleted: c.deleted?.[0] === "true",
         }));
+      } else if (parsed.calls?.item) {
+        records = parsed.calls.item.map((c) => ({
+          id: c.id?.[0],
+          caller: c.caller?.[0],
+          callee: c.callee?.[0],
+          duration: c.duration?.[0],
+          type: c.type?.[0],
+          timestamp: c.timestamp?.[0],
+          deleted: c.deleted?.[0] === "true",
+        }));
       }
     } else if (ext === ".txt") {
       const raw = fs.readFileSync(filePath, "utf-8");
@@ -51,7 +61,6 @@ export const parseCalls = async (filePath) => {
       }));
     }
 
-    // ✅ Normalize schema
     return records.map((call, i) => ({
       call_id: call.id || call.call_id || `rec_${i}`,
       caller: call.caller || call.from || "unknown",
