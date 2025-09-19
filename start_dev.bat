@@ -15,14 +15,14 @@ echo.
 echo All clear! Starting development servers...
 echo.
 
-cd /d "%~dp0"
+@REM cd /d "%~dp0"
 
-start "Blockchain" cmd /k "cd /d ""%~dp0blockchain"" && npm i && npm run dev"
+@REM start "Blockchain" cmd /k "cd /d ""%~dp0blockchain"" && npm i && npm run dev"
 
-start "Client" cmd /k "cd /d ""%~dp0client"" && npm i && npm run dev"
+@REM start "Client" cmd /k "cd /d ""%~dp0client"" && npm i && npm run dev"
 
-start "Node Server" cmd /k "cd /d ""%~dp0server"" && npm i && npm run dev"
+@REM start "Node Server" cmd /k "cd /d ""%~dp0server"" && npm i && npm run dev"
 
-start "Flask Server" cmd /k "cd /d ""%~dp0server - flask"" && conda activate flask_env && python run.py"
+@REM start "Flask Server" cmd /k "cd /d ""%~dp0server - flask"" && conda activate flask_env && python run.py"
 
 echo All development servers are being launched in new windows.
