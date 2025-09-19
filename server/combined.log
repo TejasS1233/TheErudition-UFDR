@@ -202,3 +202,17 @@
 {"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:46:55.802Z"}
 {"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:46:55.806Z"}
 {"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:46:55.807Z"}
+{"level":"info","message":"Entering uploadAndProcessReport controller.","timestamp":"2025-09-19T17:48:37.829Z"}
+{"file":{"destination":"public\\temp","encoding":"7bit","fieldname":"report","filename":"UFDR_SAMPLE.zip","mimetype":"application/x-zip-compressed","originalname":"UFDR_SAMPLE.zip","path":"public\\temp\\UFDR_SAMPLE.zip","size":11129},"level":"info","message":"File received:","timestamp":"2025-09-19T17:48:37.834Z"}
+{"level":"info","message":"Zip file path:","timestamp":"2025-09-19T17:48:37.836Z","zipFilePath":"public\\temp\\UFDR_SAMPLE.zip"}
+{"level":"info","message":"Output directory:","outputDir":"C:\\Users\\tejas\\AppData\\Local\\Temp\\ufdr_unzipped\\1758304117836","timestamp":"2025-09-19T17:48:37.836Z"}
+{"level":"info","message":"Created output directory.","timestamp":"2025-09-19T17:48:37.837Z"}
+{"level":"info","message":"Starting file unzip process.","timestamp":"2025-09-19T17:48:37.837Z"}
+{"level":"info","message":"File unzipped successfully.","timestamp":"2025-09-19T17:48:37.882Z"}
+{"level":"info","message":"Starting report processing.","timestamp":"2025-09-19T17:48:37.882Z"}
+{"level":"info","message":"Report processed successfully:","report_id":"1758304117882","timestamp":"2025-09-19T17:48:37.914Z"}
+{"level":"info","message":"Report saved to MongoDB with ID:","reportId":"68cd97756263b2fd2624e176","timestamp":"2025-09-19T17:48:37.995Z"}
+{"level":"info","message":"Starting cleanup process.","timestamp":"2025-09-19T17:48:38.008Z"}
+{"level":"info","message":"Cleaned up zip file.","timestamp":"2025-09-19T17:48:38.021Z"}
+{"level":"info","message":"Cleaned up unzipped folder.","timestamp":"2025-09-19T17:48:38.128Z"}
+{"level":"info","message":"Cleanup process finished.","timestamp":"2025-09-19T17:48:38.138Z"}
