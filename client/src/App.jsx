@@ -11,13 +11,10 @@ import Home from "@/pages/Home";
 import Login from "@/pages/Login";
 import SignUp from "@/pages/SignUp";
 import ContactPage from "@/pages/ContactUs";
-import PeerJSVideoCallPage from "@/pages/PeerJSVideoCallPage";
 import UserProfile from "@/pages/UserProfile";
-import PaymentPage from "@/pages/PaymentPage";
-import TransactionVerifier from "@/pages/TransactionVerifier";
-import AadhaarVerificationPage from "@/pages/AadhaarVerificationPage";
+import UploadReport from "@/pages/UploadReport";
+
 import Dashboard from "@/pages/Dashboard";
-import Chat from "@/pages/Chat";
 
 const hiddenLayoutRoutes = ["/login", "/signup", "/dashboard"];
 
@@ -48,14 +45,9 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/peer-call" element={<PeerJSVideoCallPage />} />
-          <Route path="/peer-call/:roomId" element={<PeerJSVideoCallPage />} />
           <Route path="/user-profile/:id" element={<UserProfile />} />
-          <Route path="/payment" element={<PaymentPage />} />
-          <Route path="/verify-transaction" element={<TransactionVerifier />} />
-          <Route path="/aadhaar-verify" element={<AadhaarVerificationPage />} />
+          <Route path="/upload-report" element={<UploadReport />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/chat" element={<Chat />} />
         </Routes>
       </Layout>
     </Router>

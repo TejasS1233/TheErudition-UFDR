@@ -48,11 +48,13 @@ app.use("/peerjs", peerServer);
 
 import userRouter from "./routes/user.routes.js";
 import healthcheckRouter from "./routes/healthcheck.routes.js";
+import reportRouter from "./routes/report.routes.js";
 import paymentRouter from "./routes/payment.routes.js";
 import chatbotRoutes from "./routes/chat.routes.js";
 import chatRouter from "./routes/chat.routes.js";
 
 app.use("/api/v1/users", userRouter);
+app.use("/api/v1/report", reportRouter);
 app.use("/api/v1/healthcheck", healthcheckRouter);
 app.use("/api/v1/payments", paymentRouter);
 app.use("/api/v1/chatbot", chatbotRoutes);
